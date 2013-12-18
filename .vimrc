@@ -1,7 +1,10 @@
 syntax on
 set background=dark
-:silent! colorscheme solarized            " try to change colorscheme to solarized, but don't spew out error if it doesn't exist
 set number
+
+" try to change colorscheme to solarized, but don't spew out error if it doesn't exist
+:silent! colorscheme solarized
+
 
 " Use spaces for tabs, and enable smart indent
 set smartindent
