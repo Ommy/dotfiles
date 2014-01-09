@@ -6,7 +6,9 @@ alias grep="grep --color=always"
 alias gitst="git status"
 alias gituno="git status -uno"
 
-# doge
+# wow
+# such doge
+# much git
 alias such='git'
 alias very='git'
 alias wow='git status'
