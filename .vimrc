@@ -2,6 +2,10 @@ syntax on
 set background=dark
 set number
 
+" Solarized options
+let g:solarized_visibility="high"
+let g:solarized_contrast="high"
+
 " try to change colorscheme to solarized, but don't spew out error if it doesn't exist
 :silent! colorscheme solarized
 
