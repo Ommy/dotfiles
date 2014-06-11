@@ -1,4 +1,4 @@
-syntax on
+syntax enable
 set background=dark
 set number
 
@@ -9,12 +9,23 @@ let g:solarized_contrast="high"
 " try to change colorscheme to solarized, but don't spew out error if it doesn't exist
 :silent! colorscheme solarized
 
+" Turn off vi compatibility
+set nocompatible
+
 
 " Use spaces for tabs, and enable smart indent
 set smartindent
+set autoindent
+
 set tabstop=4
 set shiftwidth=4
 set expandtab
+
+" Load indent file for the current filetype
+filetype indent on
+
+" Set iTerm scroller with mouse
+set mouse=a
 
 " highlight all search results
 set hlsearch
