@@ -1,6 +1,7 @@
 syntax enable
 set background=dark
 set number
+set ruler
 
 " Solarized options
 let g:solarized_visibility="high"
