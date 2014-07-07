@@ -30,7 +30,7 @@ set mouse=a
 " highlight all search results
 set hlsearch
 
-autocmd Filetype ruby set tabstop=2|set shiftwidth=2|set textwidth=80
+autocmd FileType ruby set tabstop=2|set shiftwidth=2|set textwidth=80
 
 " Highlight any trailing whitespace with a red background, so as not to anger git
 highlight ExtraWhitespace ctermbg=red guibg=red
